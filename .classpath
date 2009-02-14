@@ -3,5 +3,46 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="com.springsource.server.ide.jdt.core.MANIFEST_CLASSPATH_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="lib/checkstyle-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.googlecode.osgihibernate_3.2.6.GA.jar"/>
+	<classpathentry kind="lib" path="lib/com.googlecode.osgihibernate.core_3.2.6.GA.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.com.mchange.v2.c3p0-sources-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.com.mysql.jdbc-5.1.6.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.com.mysql.jdbc-sources-5.1.6.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.javax.transaction-1.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.javax.transaction-sources-1.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.javax.xml.stream-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.javax.xml.stream-sources-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.aopalliance-sources-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.apache.commons.logging-sources-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.apache.log4j-sources-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb-1.8.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.aop-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.aop-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.beans-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.beans-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context.support-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.context.support-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.core-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.core-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jdbc-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jdbc-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jms-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jms-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.orm-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.orm-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.transaction-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.transaction-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web-sources-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web.servlet-2.5.6.A.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.web.servlet-sources-2.5.6.A.jar"/>
+	<classpathentry kind="output" path="build"/>
 </classpath>

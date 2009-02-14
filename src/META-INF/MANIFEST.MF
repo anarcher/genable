@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-Name: Genable Bundle
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: genable
+Bundle-Version: 1.0.0
+
