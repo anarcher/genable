@@ -22,6 +22,9 @@
     <copy todir="${env.SERVER_HOME}/pickup/">
         <fileset dir="dists" />
     </copy>
+    <copy todir="${env.SERVER_HOME}/repository/bundles/usr/">
+        <fileset dir="lib" />
+    </copy>
 </target>
 
 <target name="clean" >

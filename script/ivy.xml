@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="./config/ivy/ivy-doc.xsl"?>
 <ivy-module version="1.0">
-  <info organisation="com" module="integratebutton" />
+  <info organisation="org" module="genable" />
   <dependencies>
-    <dependency name="hsqldb" rev="1.8.0.7" />
-    <dependency name="checkstyle" rev="4.1" />
-    <dependency name="junit" rev="3.8.1" />
+    <dependency org="com.mysql.jdbc" name="com.springsource.com.mysql.jdbc" rev="5.1.6" />
+    <dependency org="org.springframework" name="org.springframework.spring-library" rev="2.5.6.A" />
+    <dependency org="org.joda" name="com.springsource.org.joda.time" rev="1.6.0" />
   </dependencies>
 </ivy-module>
