@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ivy" default="resolve" basedir="../" xmlns:ivy="antlib:org.apache.ivy.ant" xmlns="antlib:org.apache.tools.ant">
+<property name="ivy.install.version" value="2.0.0" />
+<property name="ivy.home" value="${user.home}/.ant" />
+<property name="ivy.jar.dir" value="${ivy.home}/lib" />
+<property name="ivy.jar.file" value="${ivy.jar.dir}/ivy.jar" />
+        
+<taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant" classpath="${ivy.jar.dir}/ivy.jar"/>
+                
+<target name="download-ivy">
+    <mkdir dir="${ivy.jar.dir}"/>
+    <get src="http://www.integratebutton.com/repo/${ivy.install.version}/ivy-${ivy.install.version}.jar" dest="${ivy.jar.file}" usetimestamp="true"/>
+</target>
+
+<target name="resolve" >
+  <mkdir dir="lib" />
+  <ivy:resolve file="script/ivy.xml" />
+  <ivy:retrieve />
+  <!-- pattern="lib/[artifact]-[revision].[ext]" />
+  -->
+</target>
+
+</project>

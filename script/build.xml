@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="genable" default="compile" basedir="../" xmlns:ivy="antlib:org.apache.ivy.ant" xmlns="antlib:org.apache.tools.ant">
+<property environment="env"/>
+<property name="project.name" value="genable" />
+
+<target name="compile">
+  <mkdir dir="build"/>
+  <javac srcdir="src" destdir="build">
+   <classpath>
+    <fileset dir="lib" includes="*.jar" />
+   </classpath>
+  </javac>
+</target>
+
+<target name="jar">
+    <mkdir dir="dists" />
+    <jar jarfile="dists/${project.name}.jar" compress="true" basedir="build" />
+</target>
+
+<target name="publish" depends="jar">
+    <mkdir dir="dists" />
+    <copy todir="${env.SERVER_HOME}/pickup/">
+        <fileset dir="dists" />
+    </copy>
+</target>
+
+<target name="clean" >
+    <delete dir="build" />
+    <delete dir="dists" />
+</target>
+
+</project>
