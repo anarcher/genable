@@ -12,12 +12,21 @@
   </javac>
 </target>
 
-<target name="jar">
+<target name="jar" depends="compile">
     <mkdir dir="dists" />
-    <jar jarfile="dists/${project.name}.jar" compress="true" basedir="build" />
+    <jar jarfile="dists/${project.name}.jar" compress="true" basedir="build/" />
 </target>
 
-<target name="publish" depends="jar">
+<target name="war" depends="compile">
+    <mkdir dir="dists" />
+    <war destfile="dists/${project.name}.war" webxml="web/WEB-INF/web.xml">
+        <fileset dir="web" />
+        <lib dir="lib" />
+        <classes dir="build" />
+    </war>
+</target>
+
+<target name="publish" depends="war">
     <mkdir dir="dists" />
     <copy todir="${env.SERVER_HOME}/pickup/">
         <fileset dir="dists" />

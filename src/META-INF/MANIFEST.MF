@@ -1,6 +1,8 @@
 Manifest-Version: 1.0
-Bundle-Name: Genable Bundle
+Bundle-Name: GenAble 
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: genable
+Bundle-SymbolicName: GenAble
 Bundle-Version: 1.0.0
+Bundle-Classpath: .,WEB-INF/classes,lib
+
 
